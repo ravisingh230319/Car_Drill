@@ -3,4 +3,3 @@ import { problem3 } from '../problem3.js';
 
 const result = problem3(inventory);
 console.log(result);
-console.log(result.length);
