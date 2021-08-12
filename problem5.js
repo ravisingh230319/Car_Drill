@@ -9,6 +9,9 @@ export function problem5(inventory){
             {   old_cars[count]=used[ind];
                 count++;
             }
-    }  
+    }
+    if(old_cars.length==0)
+    return [];
+    else  
     return old_cars;
 }
